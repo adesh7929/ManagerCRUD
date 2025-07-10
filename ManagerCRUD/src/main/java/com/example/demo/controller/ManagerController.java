@@ -8,6 +8,6 @@ public class ManagerController {
 
 	@GetMapping("/")
 	public String home() {
-		return "Hello World";
+		return "Hello World<br>Welcome to Arena!!";
 	}
 }
